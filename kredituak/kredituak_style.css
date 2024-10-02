@@ -1,0 +1,39 @@
+* {
+    margin: 5px;
+    background-color: rgb(228, 215, 183);
+    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align:center
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.botoi {
+    text-align: center;
+    align-items: center;
+}
+
+.btn {
+    align-items: center;
+    font-size: 30px;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+    transform: scale(1.3);
+}

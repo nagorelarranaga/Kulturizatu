@@ -1,0 +1,44 @@
+* {
+    background:url(irudiak/fondoa.jpg) no-repeat center fixed;
+    background-size: cover;
+    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.argazkia {
+    text-align: center;
+    margin-top: 100px;
+}
+
+img {
+    height: 150px;
+    width: auto;
+}
+
+.botoia_play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.botoia_kredituak {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+}
+
+.btn{
+    text-align: center;
+    font-size: 30px;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn:hover{
+    background: white;
+    color: black;
+    transform: scale(1.3);
+}

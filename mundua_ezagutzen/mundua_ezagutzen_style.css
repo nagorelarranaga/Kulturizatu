@@ -1,0 +1,85 @@
+* {
+    margin: 5px;
+    background-color: rgb(228, 215, 183);
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+/*banderak_portada.html-ren estiloa*/
+.botoia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.botoi {
+    background-color: black;
+    color:white;
+    font-size: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.botoi:hover {
+    background: white;
+    color: black;
+    transform: scale(1.3);
+}
+
+/*banderak__.html-ren estiloa*/
+h1 {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+img {
+    height: 300px;
+    width: auto;
+}
+
+.argazkia {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.botoiak_aukerak {
+    text-align: center;
+}
+
+.aukera {
+    font-size: 25px;
+    height: 70px;
+    width: 200px;
+    background-color: white;
+}
+
+.btn {
+    text-align: center;
+    font-size: 30px;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn:hover{
+    background: white;
+    color: black;
+    transform: scale(1.3);
+}
+
+.atzera {
+    position: fixed;
+    bottom: 40px;
+    left: 30px;
+}
+
+.aurrera {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+}
